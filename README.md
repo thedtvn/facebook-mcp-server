@@ -1,4 +1,5 @@
 # Facebook MCP Server
+<img src="https://badge.mcpx.dev?type=server" title="MCP Server"/>
 
 ## Overview
 

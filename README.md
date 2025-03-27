@@ -1,12 +1,12 @@
-#Facebook MCP Server
+# Facebook MCP Server
 
-##Overview
+## Overview
 
 A Model Context Protocol (MCP) server implementation that provides Facebook Page interaction and management capabilities. This server enables automated posting, comment moderation, and content retrieval.
 
-##Components
+## Components
 
-##Tools
+## Tools
 
 The server offers the following tools:
 
@@ -35,7 +35,7 @@ The server offers the following tools:
     * Deletes a comment from a post.
     * Input: `comment_id` (string): The ID of the comment to delete.
 
-##Setup
+## Setup
 
 1.  **Configure Facebook Credentials:**
     * Create a `.env` file in the root directory of your project.
@@ -70,11 +70,11 @@ The server offers the following tools:
         ```
 
 
-##Building
+## Building
 
 Comming Next.
 
 
-##License
+## License
 
 This MCP server is licensed under the MIT License. This means you are free to use, modify, and distribute the software, subject to the terms and conditions of the MIT License. For more details, please see the LICENSE file in the project repository.

@@ -45,7 +45,7 @@ class FacebookManager:
 
     def reply_to_comment(self, post_id: str, comment_id: str, message: str) -> dict[str, Any]:
         """Replies to a comment on a specific post."""
-        url = f"{GRAPH_API_BASE_URL}/{comment_id}/replies"
+        url = f"{GRAPH_API_BASE_URL}/{comment_id}/comments"
         params = {
             "message": message,
             "access_token": PAGE_ACCESS_TOKEN,

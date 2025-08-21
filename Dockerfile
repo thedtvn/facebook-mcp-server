@@ -1,5 +1,5 @@
 # Use astral/uv image with latest tag
-FROM astral-sh/uv:python3.13-alpine
+FROM astral/uv:python3.13-alpine
 
 # Set working directory
 WORKDIR /app
